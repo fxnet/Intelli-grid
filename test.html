@@ -1,0 +1,115 @@
+<button>文件操作（正常）</button>
+<button>文件操作（异常）</button>
+
+<button>U盘操作（正常）</button>
+<button>U盘操作（异常）</button>
+
+<button>外网访问（正常）</button>
+<button>外网访问（异常）</button>
+
+<button>邮件发送（正常）</button>
+<button>邮件发送（异常）</button>
+
+<button>即时通讯（正常）</button>
+<button>即时通讯（异常）</button>
+<button>即时通讯（上线）</button>
+<button>即时通讯（下线）</button>
+
+<button>企业攻击社会邮箱（正常）</button>
+<button>企业攻击企业（正常）</button>
+<button>社会邮箱攻击企业（正常）</button>
+<button>社会邮箱攻击社会邮箱（正常）</button>
+<button>自己发送给自己的（正常）</button>
+<button>企业攻击社会邮箱（异常）</button>
+<button>企业攻击企业（异常）</button>
+<button>社会邮箱攻击企业（异常）</button>
+<button>社会邮箱攻击社会邮箱（异常）</button>
+<button>自己发送给自己的（异常）</button>
+
+<script src="http://www.touchsprite.com/wp-content/themes/tsweb/includes/js/jquery.min.js?ver=4.5.4"></script>
+<script>
+    var button_arr = document.querySelectorAll("button");
+    for(var i=0;i<button_arr.length;i++){
+        button_arr[i].onclick = function(){
+            post_data(this);
+        }
+    }
+    function post_data(obj) {
+        var name = obj.innerHTML;
+        var url = "";
+        switch (name){
+            case "文件操作（正常）":
+                url = "/simulate/generateFile?type=2";
+                break;
+            case "文件操作（异常）":
+                url = "/simulate/generateFile?type=1";
+                break;
+            case "U盘操作（正常）":
+                url = "/simulate/generateUsb?type=2";
+                break;
+            case "U盘操作（异常）":
+                url = "/simulate/generateUsb?type=1";
+                break;
+            case "外网访问（正常）":
+                url = "/simulate/generateWeb?type=2";
+                break;
+            case "外网访问（异常）":
+                url = "/simulate/generateWeb?type=1";
+                break;
+            case "邮件发送（正常）":
+                url = "/simulate/generateEmail?type=2";
+                break;
+            case "邮件发送（异常）":
+                url = "/simulate/generateEmail?type=1";
+                break;
+            case "即时通讯（上线）":
+                url = "/simulate/generateIm?type=3";
+                break;
+            case "即时通讯（下线）":
+                url = "/simulate/generateIm?type=4";
+                break;
+            case "即时通讯（异常）":
+                url = "/simulate/generateIm?type=1";
+                break;
+            case "即时通讯（正常）":
+                url = "/simulate/generateIm?type=2";
+                break;
+            case "企业攻击社会邮箱（正常）":
+              url = "/simulate/generateAttackedEmail?securityType=2&attackType=0";
+              break;
+            case "企业攻击企业（正常）":
+              url = "/simulate/generateAttackedEmail?securityType=2&attackType=1";
+              break;
+            case "社会邮箱攻击企业（正常）":
+              url = "/simulate/generateAttackedEmail?securityType=2&attackType=2";
+              break;
+            case "社会邮箱攻击社会邮箱（正常）":
+              url = "/simulate/generateAttackedEmail?securityType=2&attackType=3";
+              break;
+            case "自己发送给自己的（正常）":
+              url = "/simulate/generateAttackedEmail?securityType=2&attackType=4";
+              break;
+            case "企业攻击社会邮箱（异常）":
+              url = "/simulate/generateAttackedEmail?securityType=1&attackType=0";
+              break;
+            case "企业攻击企业（异常）":
+              url = "/simulate/generateAttackedEmail?securityType=1&attackType=1";
+              break;
+            case "社会邮箱攻击企业（异常）":
+              url = "/simulate/generateAttackedEmail?securityType=1&attackType=2";
+              break;
+            case "社会邮箱攻击社会邮箱（异常）":
+              url = "/simulate/generateAttackedEmail?securityType=1&attackType=3";
+              break;
+            case "自己发送给自己的（异常）":
+              url = "/simulate/generateAttackedEmail?securityType=1&attackType=4";
+              break;
+        }
+        $.ajax({
+            url:"http://battleheart.natapp1.cc"+url,
+            success:function (msg) {
+                console.log(msg)
+            }
+        });
+    }
+</script>

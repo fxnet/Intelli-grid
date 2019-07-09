@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>iconfont_mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="弱化调整" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-198.000000, -112.000000)" fill="#808080">
+            <g id="Group-4" transform="translate(198.000000, 112.000000)">
+                <path d="M16.4705882,6.5484423 L10.0536307,13 L3.52941176,6.51058427 L3.52941176,15.5714286 L16.4705882,15.5714286 L16.4705882,6.5484423 Z M5.63816008,5 L9.98212311,9.74516744 L14.4928485,5 L5.63816008,5 Z M17.2352941,3 L20,3 L20,19 L0,19 L0,3 L2.76470588,3 L17.2352941,3 Z" id="mail"></path>
+            </g>
+        </g>
+    </g>
+</svg>

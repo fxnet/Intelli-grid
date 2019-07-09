@@ -1,0 +1,9 @@
+[
+  {"mailProvider": "华北", "count": 100},
+  {"mailProvider": "华南", "number": 55},
+  {"mailProvider": "中部", "number": 80},
+  {"mailProvider": "东南", "number": 32},
+  {"mailProvider": "西北", "number": 90},
+  {"mailProvider": "西南", "number": 90},
+  {"mailProvider": "海外", "number": 90}
+]

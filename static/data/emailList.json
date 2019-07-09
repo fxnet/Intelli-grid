@@ -1,0 +1,11 @@
+{
+  "children":
+  [
+    {"id": 200, "email": "mail_126","name":"网易126","desc":"163.com"},
+    {"id": 201, "email": "mail_163","name":"网易163","desc":"163.com"},
+    {"id": 202, "email": "mail_qq","name":"QQ邮箱","desc":"qq.com"},
+    {"id": 203, "email": "mail_outlook","name":"Outlook","desc":"outlook.com"},
+    {"id": 204, "email": "mail_ali","name":"阿里云","desc":"aliyun.com"},
+    {"id": 205, "email": "mail_other","name":"其他邮箱","desc":"radom.com"}
+  ]
+}

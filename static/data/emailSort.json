@@ -1,0 +1,9 @@
+[
+  {"name": "网易126邮箱", "number": 100,"type":"mail_126"},
+  {"name": "网易163邮箱", "number": 55,"type":"mail_163"},
+  {"name": "QQ邮箱", "number": 80,"type":"mail_qq"},
+  {"name": "Outlook", "number": 32,"type":"mail_outlook"},
+  {"name": "阿里云邮箱", "number": 90,"type":"mail_ali"},
+  {"name": "其他邮箱", "number": 90,"type":"mail_other"}
+
+]

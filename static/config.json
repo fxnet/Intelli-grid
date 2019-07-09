@@ -1,0 +1,13 @@
+{
+  "config":{
+    "group_ask_email":{
+      "width": 800,
+      "height": 500,
+      "padding": {"left": 40},
+      "email_x": 360,
+      "lineTime": 1500
+    }
+  },
+  "poll_time":5000,
+  "man_initCount":50
+}

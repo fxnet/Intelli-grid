@@ -1,0 +1,43 @@
+{
+  "children":
+  [
+    {"id": 101, "group": "国网东北分部","paddingTop":0},
+    {"id": 102, "group": "国网黑龙江省电力","paddingTop":13},
+    {"id": 103, "group": "国网吉林省电力","paddingTop":20},
+    {"id": 104, "group": "国网辽宁省电力","paddingTop":22},
+    {"id": 105, "group": "国网内蒙古东部电力","paddingTop":25},
+    {"id": 106, "group": "国网西北分部","paddingTop":30},
+    {"id": 107, "group": "国网新疆电力","paddingTop":30},
+    {"id": 100, "group": "国网青海省电力","paddingTop":30},
+    {"id": 108, "group": "国网宁夏电力","paddingTop":30},
+    {"id": 109, "group": "国网甘肃省电力","paddingTop":28},
+    {"id": 110, "group": "国网陕西省电力","paddingTop":25},
+    {"id": 111, "group": "国网华北分部","paddingTop":22},
+    {"id": 112, "group": "国网山东省电力","paddingTop":18},
+    {"id": 113, "group": "国网山西省电力","paddingTop":10},
+    {"id": 114, "group": "国网冀北电力","paddingTop":-0},
+    {"id": 115, "group": "国网河北省电力","paddingTop":-10},
+    {"id": 116, "group": "国网天津市电力","paddingTop":-20},
+
+    {"id": 117, "group": "国网北京市电力","paddingTop":-30},
+    {"id": 118, "group": "总部","paddingTop":-30,"hasHeadOffice":true},
+    {"id": 119, "group": "国网直属单位","paddingTop":-35},
+    {"id": 119, "group": "信通","paddingTop":-40,"hasHeadOffice":true},
+    {"id": 120, "group": "国网华东分部","paddingTop":-40},
+    {"id": 121, "group": "国网上海市电力","paddingTop":-40},
+    {"id": 122, "group": "国网江苏省电力","paddingTop":-40},
+    {"id": 123, "group": "国网浙江省电力","paddingTop":-40},
+    {"id": 124, "group": "国网安徽省电力","paddingTop":-40},
+    {"id": 125, "group": "国网福建省电力","paddingTop":-40},
+
+    {"id": 126, "group": "国网华中分部","paddingTop":-40},
+    {"id": 128, "group": "国网湖南省电力","paddingTop":-43},
+    {"id": 129, "group": "国网河南省电力","paddingTop":-43},
+    {"id": 130, "group": "国网江西省电力","paddingTop":-43},
+    {"id": 127, "group": "国网湖北省电力","paddingTop":-43},
+    {"id": 131, "group": "国网西南分部","paddingTop":-30},
+    {"id": 132, "group": "国网四川省电力","paddingTop":-20},
+    {"id": 133, "group": "国网重庆市电力","paddingTop":-10},
+    {"id": 134, "group": "国网西藏电力","paddingTop":-0}
+  ]
+}

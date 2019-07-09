@@ -1,0 +1,22 @@
+html,body{
+    margin:0;
+}
+body{
+    background: #1e1e1e;
+}
+.main .header{
+    color:white;
+}
+ul{
+    list-style:none;
+}
+ul li{
+    color:black;
+    margin-bottom:10px;
+}
+ul li label{
+    background:#808080;
+    padding:3px 5px 3px 5px;
+    border-radius: 3px;
+    font-size:12px;
+}

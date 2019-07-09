@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>iconfont_safe</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="弱化调整" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" cursor="pointer">
+        <g id="Artboard" transform="translate(-158.000000, -143.000000)">
+            <g id="Group-8" transform="translate(158.000000, 143.000000)">
+                <g id="Group-26" transform="translate(2.000000, 2.000000)" fill="#86d477">
+                    <path d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M4.56344117,6.78472249 L3,8.23958948 L7.04104339,12 L13,6.45486698 L11.4365588,5 L7.04104339,9.09026603 L4.56344117,6.78472249 Z" id="Combined-Shape"></path>
+                </g>
+                <rect id="Rectangle-19-Copy-8" opacity="0.400000006" x="0" y="0" width="20" height="20"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
