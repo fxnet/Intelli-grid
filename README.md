@@ -1,7 +1,5 @@
 # Intelli-grid
 
-> 国家电网项目
-
 ## Build Setup
 
 ``` bash
